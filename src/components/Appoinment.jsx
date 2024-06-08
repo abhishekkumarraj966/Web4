@@ -10,7 +10,7 @@ const Appoinment = () => {
             Appointment
           </p>
           <div className="bg-[#353956] mb-5 rounded pt-4">
-            <div className="w-[90%] sm:w-[85%] lg:w-[80%]   sm:h-[100px]  items-center rounded-[10px]  lg:flex gap-2 justify-around mx-auto mt-[30px]  pb-20">
+            <div className="w-[90%] sm:w-[85%] lg:w-[80%]  h-full  items-center rounded-[10px]  lg:flex gap-2 justify-around mx-auto mt-[30px]  pb-20">
               <div className="">
                 <p className="font-bold text-[10px]  sm:text-[20px]  text-[#fff] ">
                   Name
