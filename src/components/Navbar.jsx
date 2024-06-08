@@ -16,19 +16,19 @@ const  Navbar = () => {
       <AppLayout>
         <ul className="text-center text-xl px-[20px] shadow-2xl shadow-black transition-transform duration-200 transform ">
           <li className="my-4 py-4 border-slate-800 hover:bg-slate-950">
-            <a href="#home">Home</a>
+            <a href="#home"  onClick={handleClick}>Home</a>
           </li>
           <li className="my-4 py-4 border-slate-800 hover:bg-slate-950">
-            <Link to="/about">About Us</Link>
+            <Link to="/about"  onClick={handleClick}>About Us</Link>
           </li>
           <li className="my-4 py-4 border-slate-800 hover:bg-slate-950">
-            <a href="#services">Services</a>
+            <a href="#services"  onClick={handleClick}>Services</a>
           </li>
           <li className="my-4 py-4 border-slate-800 hover:bg-slate-950">
-            <a href="#inquryform">Contct Us</a>
+            <a href="#inquryform"  onClick={handleClick}>Contct Us</a>
           </li>
           <li className="my-4 py-4 border-slate-800 hover:bg-slate-950">
-            <a href="#gallery">Gallery</a>
+            <a href="#gallery" onClick={handleClick}>Gallery</a>
           </li>
         </ul>
       </AppLayout>
