@@ -3,7 +3,7 @@ import AppLayout from "./AppLayou";
 
 const ContactUs = () => {
   return (
-    <div className="w-auto min-h-[368px] lg:min-h-[500px] bg-[#14151B] mt-1">
+    <div className="w-auto min-h-[368px] lg:min-h-[500px] bg-[#14151B] mt-1" id="Contact">
      <AppLayout>
       <div className="font-[700] text-[20px] lg:text-[48px] text-[rgb(255,255,255)] ml-8 lg:ml-24 pt-[20px] lg:pt-[50px]">
         Contact <span className="font-[900]">Us</span>

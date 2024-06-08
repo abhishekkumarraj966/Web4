@@ -16,19 +16,19 @@ const  Navbar = () => {
       <AppLayout>
         <ul className="text-center text-xl px-[20px] shadow-2xl shadow-black transition-transform duration-200 transform ">
           <li className="my-4 py-4 border-slate-800 hover:bg-slate-950">
-            <a href="#home"  onClick={handleClick}>Home</a>
+            <a href="#product"  onClick={handleClick}>Product</a>
           </li>
           <li className="my-4 py-4 border-slate-800 hover:bg-slate-950">
-            <Link to="/about"  onClick={handleClick}>About Us</Link>
+            <a href="#service"  onClick={handleClick}>Services</a>
           </li>
           <li className="my-4 py-4 border-slate-800 hover:bg-slate-950">
-            <a href="#services"  onClick={handleClick}>Services</a>
+            <a href="#blogs"  onClick={handleClick}>Blogs</a>
           </li>
           <li className="my-4 py-4 border-slate-800 hover:bg-slate-950">
-            <a href="#inquryform"  onClick={handleClick}>Contct Us</a>
+            <a href="#gallery"  onClick={handleClick}>Gallery</a>
           </li>
           <li className="my-4 py-4 border-slate-800 hover:bg-slate-950">
-            <a href="#gallery" onClick={handleClick}>Gallery</a>
+            <a href="#Contact" onClick={handleClick}>Contact</a>
           </li>
         </ul>
       </AppLayout>
@@ -50,19 +50,19 @@ const  Navbar = () => {
               <div className="flex-10">
                 <ul className="flex gap-6 mr-16 text-[18px] ">
                   <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
-                    <Link to="/">Home</Link>
+                    <a href="#product">Product</a>
                   </li>
                   <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
-                    <Link to="/about">About </Link>
+                  <a href="#service" >Services </a>
                   </li>
                   <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
-                    <a href="#services">Services</a>
+                    <a href="#blogs">Blogs</a>
                   </li>
                   <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
-                  <a href="#inquryform">Contct </a>
+                  <a href="#gallery">Gallery </a>
                   </li>
                   <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
-                  <a href="#gallery">Gallery</a>
+                  <a href="#Contact">Contact</a>
                   </li>
                 </ul>
               </div>
